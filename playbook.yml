@@ -1,0 +1,6 @@
+- hosts: destination
+  tasks:
+    - name: Transfer files from source to destination
+      copy:
+        src: /path/to/source/file.txt
+        dest: /path/to/destination/file.txt
